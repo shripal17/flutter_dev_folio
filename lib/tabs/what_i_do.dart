@@ -95,6 +95,8 @@ class WhatIdo extends StatelessWidget {
                               storage = index + i * 4;
                               return Image.asset(
                                 'assets/what_i_do/${data[1][index + i * 4]}',
+                                height: 92,
+                                fit: BoxFit.fitHeight,
                               );
                             }),
                           ),
@@ -173,6 +175,8 @@ class WhatIdo extends StatelessWidget {
                               storage = index + i * 8;
                               return Image.asset(
                                 'assets/what_i_do/${data[1][index + i * 8]}',
+                                height: 92,
+                                fit: BoxFit.fitHeight,
                               );
                             }),
                           ),
